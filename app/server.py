@@ -9,10 +9,10 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1NSEgGruTTfyRlFsd-4jEtRpVEfJnj-El'
+export_file_name = 'Model_Dollar_vs_Euro_vs_Pound_Notes_trained.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['US Dollar', 'Euro', 'GB Pound']
 path = Path(__file__).parent
 
 app = Starlette()
