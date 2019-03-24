@@ -9,7 +9,7 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_url = 'https://drive.google.com/uc?export=download&id=1NSEgGruTTfyRlFsd-4jEtRpVEfJnj-El'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1yAjhi6yxQEQRR2lD7mRpv336a59DblV_'
 export_file_name = 'Model_Dollar_vs_Euro_vs_Pound_Notes_trained.pkl'
 
 classes = ['US Dollar', 'Euro', 'GB Pound']
